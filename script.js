@@ -125,9 +125,6 @@ function veiculoZero() {
         resultado_zero = true;
     }
     else if (zero.checked == false) {
-
-        validarVeiculo();
-
         input_placa.disabled = false;
         input_uf.disabled = false;
         input_renavam.disabled = false;
